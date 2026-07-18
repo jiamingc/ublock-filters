@@ -1,0 +1,84 @@
+! general ui elements
+www.youtube.com###voice-search-button
+
+! promo popup
+www.youtube.com##ytd-popup-container:has(> tp-yt-paper-dialog > yt-mealbar-promo-renderer) 
+
+! remove sidebar
+www.youtube.com###page-manager:style(margin-left: 0px !important;)
+www.youtube.com###guide
+www.youtube.com###guide-button
+www.youtube.com##ytd-mini-guide-renderer
+
+! home page
+www.youtube.com##ytd-browse[page-subtype=home]
+
+! search page
+www.youtube.com##ytd-shelf-renderer:has(#title:has-text(/^(People also watched|From related searches|Channels new to you)$/))
+www.youtube.com##ytd-horizontal-card-list-renderer:has(#title:has-text(/^People also search for$/))
+! shorts results
+www.youtube.com##grid-shelf-view-model
+
+! channel page
+www.youtube.com###page-header-banner
+! shorts section
+www.youtube.com##ytd-reel-shelf-renderer
+
+! video watch page
+www.youtube.com##+js(set-cookie, wide, 1)
+www.youtube.com###subscribe-button
+www.youtube.com###sponsor-button
+www.youtube.com###flexible-item-buttons
+www.youtube.com##.ytd-comments
+www.youtube.com###related
+! description bottom sections
+www.youtube.com##.ytd-watch-metadata[slot="extra-content"]
+! metadata below description
+www.youtube.com##ytd-metadata-row-container-renderer
+
+! video player
+www.youtube.com##.ytp-chrome-top-buttons
+www.youtube.com##.ytp-title-channel
+www.youtube.com##.ytp-fullscreen-grid
+www.youtube.com##.ytp-ce-element
+www.youtube.com##.ytp-miniplayer-button
+www.youtube.com##.ytp-size-button
+! channel icon in video corner
+www.youtube.com##.iv-branding
+! pause overlay video suggestions
+www.youtube.com##.ytp-pause-overlay-container
+
+! block autoplay
+/endscreen.js$script,domain=youtube.com|youtu.be|youtube-nocookie.com
+www.youtube.com##button.ytp-button[data-tooltip-target-id="ytp-autonav-toggle-button"]
+
+! shorts UI
+www.youtube.com##.navigation-container.ytd-shorts
+www.youtube.com###shorts-player video:remove-attr(loop)
+
+! shorts scrolling
+||www.youtube.com/youtubei/v1/reel/reel_watch_sequence$domain=www.youtube.com
+www.youtube.com##+js(set-constant, ytInitialReelWatchSequenceResponse.entries, [])
+
+! fix playlist sidebar position
+www.youtube.com##ytd-playlist-sidebar-renderer:style(left: 0px !important;)
+www.youtube.com##ytd-playlist-header-renderer:style(left: 0 !important;)
+www.youtube.com##yt-page-header-renderer.page-header-sidebar:style(left: 0 !important;)
+
+! new yt ui
+www.youtube.com##ytd-watch-grid > #columns > #primary
+www.youtube.com##ytd-watch-grid > #columns > #secondary:style(width: 100% !important;)
+www.youtube.com##ytd-merch-shelf-renderer
+
+! mobile
+m.youtube.com##ytm-item-section-renderer[data-content-type="related"]
+m.youtube.com##ytm-item-section-renderer[data-content-type="result"]
+m.youtube.com##ytm-button-renderer.icon-add_to_playlist
+m.youtube.com##ytm-reel-shelf-renderer
+m.youtube.com##ytm-subscribe-button-renderer
+m.youtube.com##ytm-slim-owner-renderer > a:remove-attr(href)
+m.youtube.com##ytm-slim-owner-renderer > a:style(pointer-events: none;)
+m.youtube.com##ytm-video-description-header-renderer > div.primary-info > div.cbox > a.reel-player-header-channel-endpoint:remove-attr(href)
+m.youtube.com##ytm-video-description-header-renderer > div.primary-info > div.cbox > a.reel-player-header-channel-endpoint:style(pointer-events: none;)
+m.youtube.com##ytm-video-description-infocards-section-renderer
+m.youtube.com##ytm-pivot-bar-renderer

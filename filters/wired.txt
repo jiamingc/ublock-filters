@@ -1,0 +1,9 @@
+! suggested articles sidebar
+www.wired.com##.fVLMby
+www.wired.com##.stRKV:matches-media((min-width: 1024px)):style(grid-column: 3 / -3 !important)
+www.wired.com##.dRGWbI:matches-media((min-width: 1024px)):style(grid-column: 3 / -3 !important)
+! featured video
+www.wired.com##.gxMaIG
+www.wired.com##.byNLHx
+! suggested articles footer
+www.wired.com##[data-testid="ContentFooterBottom"]

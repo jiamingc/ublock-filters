@@ -1,0 +1,15 @@
+name: Release
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - run: ./build.sh
+      - uses: softprops/action-gh-release@v3
+        with:
+          working_directory: out
+          fail_on_unmatched_files: true
+          files: filters.txt
