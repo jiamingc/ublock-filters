@@ -1,1 +1,1 @@
-[Add list](https://github.com/jiamingc/ublock-filters/releases/latest/download/filters.txt)
+[Add list](ubo:subscribe?location=https%3A%2F%2Fgithub.com%2Fjiamingc%2Fublock-filters%2Freleases%2Flatest%2Fdownload%2Ffilters.txt)
