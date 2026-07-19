@@ -1,0 +1,11 @@
+! prevent additional articles on scroll
+||www.pcgamesn.com/g2a"
+
+www.pcgamesn.com##.js-ifs-nextpage
+www.pcgamesn.com##.sidebar-right-2k23
+www.pcgamesn.com##.post_footer
+www.pcgamesn.com##.feature-header:style(width: 100% !important;)
+www.pcgamesn.com##.entry-content:style(width: 100% !important;)
+www.pcgamesn.com##.article-featured-image:style(max-width: unset !important;)
+www.pcgamesn.com###home_features
+www.pcgamesn.com##.homepage_bar

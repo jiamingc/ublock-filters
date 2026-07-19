@@ -1,0 +1,5 @@
+www.tomsguide.com###sidebar
+www.tomsguide.com###slice-container-newsletterForm-articleInbodyContent
+www.tomsguide.com###slice-container-moreAbout
+www.tomsguide.com###slice-container-newsletterForm-exitIntent
+www.tomsguide.com##article.news-article:style(max-width: none !important;)

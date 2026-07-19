@@ -1,0 +1,15 @@
+! Left Sidebar
+fandom.com###global-explore-navigation
+fandom.com##.main-container:style(margin-left: 0 !important; width: 100% !important;)
+! Right Sidebar
+fandom.com##.page__right-rail
+! Top bar
+fandom.com##.global-top-navigation__fandom-logo
+fandom.com##.global-top-navigation__action-wrapper
+fandom.com###community-navigation
+! Bottom left social overlay
+fandom.com###WikiaBar
+! Footer
+fandom.com##.global-footer
+! Search
+fandom.com##.unified-search__layout__right-rail

@@ -1,0 +1,2 @@
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com###sidebar
+stackexchange.com,stackoverflow.com,superuser.com,askubuntu.com###mainbar:style(width: 100% !important;)

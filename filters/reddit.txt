@@ -1,0 +1,24 @@
+www.reddit.com##.subgrid-container:style(grid-column-start: 1 !important; grid-column-end: -1 !important;)
+www.reddit.com##.left-sidebar-min
+www.reddit.com##.left-sidebar
+www.reddit.com##.right-sidebar
+www.reddit.com##shreddit-interactable-element
+www.reddit.com##activate-feature
+www.reddit.com###get-app
+www.reddit.com###login-button
+www.reddit.com##shreddit-post[view-context=PopularFeed]
+www.reddit.com##shreddit-post[view-context=SubredditFeed]
+www.reddit.com##shreddit-post-loading
+www.reddit.com##trending-gallery-carousel
+www.reddit.com##shreddit-experience-tree:remove()
+www.reddit.com##embed-snippet-share-button:remove()
+www.reddit.com###reddit-trending-searches-partial-container
+www.reddit.com##shreddit-feed[reload-url^="/svc/shreddit/feeds/popular-feed"]
+www.reddit.com##shreddit-feed[reload-url^="/svc/shreddit/community-more-posts"]
+
+www.reddit.com##shreddit-gallery-carousel
+www.reddit.com##.s\:hidden:has(+ shreddit-async-loader[bundlename="shreddit_sort_dropdown"]):style(display: unset !important;)
+www.reddit.com##main#main-content:style(max-width: 100% !important;)
+
+# Reddit mobile answers
+www.reddit.com###answers-suggested-queries-m3

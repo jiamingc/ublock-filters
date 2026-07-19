@@ -1,0 +1,3 @@
+kotaku.com###secondScroll
+kotaku.com##main + aside
+kotaku.com##main:style(width: 100% !important)

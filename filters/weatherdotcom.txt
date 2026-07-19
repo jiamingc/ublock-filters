@@ -1,0 +1,5 @@
+weather.com##[id^="WxuContentMedia-main"]
+weather.com##aside.region-sidebar.regionSidebar
+weather.com##main.region-main.regionMain:style(grid-column-end: 3 !important;)
+weather.com##[class^="DynamicMap--dynamicMapContainer"]:style(width: auto !important;)
+weather.com##[class^="CurrentConditions--messaging"]

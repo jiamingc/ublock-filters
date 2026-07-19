@@ -1,0 +1,30 @@
+! Friends list now playing
+discord.com##.nowPlayingColumn__133bf
+
+! Friends list left sidebar items
+discord.com##[data-list-item-id^="private-channels-uid_"][data-list-item-id$="___quests"]
+discord.com##[data-list-item-id^="private-channels-uid_"][data-list-item-id$="___nitro"]
+discord.com##[data-list-item-id^="private-channels-uid_"][data-list-item-id$="___shop"]
+
+! Nitro gift
+discord.com##.container__5287f
+
+! Nameplates
+discord.com##.container_df39b2
+
+! Server members activity
+||discord.com/api/v9/content-inventory/users/@me$xhr,domain=discord.com
+
+! Bookmarks nitro upsell
+discord.com###message-save-for-later-upsell
+discord.com###message-actions-save-for-later-upsell
+
+! Store marketing info
+||discord.com/api/v9/users/@me/collectibles-marketing$xhr,domain=discord.com
+
+! Quests
+||discord.com/api/v9/quests/@me$xhr,domain=discord.com
+
+! Navbar junk
+discord.com##[data-list-id="guildsnav"] > div > .listItem__650eb
+

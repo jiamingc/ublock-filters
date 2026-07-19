@@ -1,0 +1,1 @@
+apnews.com##div.Enhancement:has(bsp-list-loadmore)

@@ -1,0 +1,7 @@
+||store.steampowered.com/explore/render$domain=store.steampowered.com
+store.steampowered.com##.content_more
+store.steampowered.com##.bottom_content
+store.steampowered.com###recommended_block
+store.steampowered.com##.live_streams_ctn
+checkout.steampowered.com##+js(trusted-click-element, #save_my_address:checked)
+checkout.steampowered.com##+js(trusted-click-element, #accept_ssa:not(:checked))

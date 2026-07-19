@@ -1,0 +1,2 @@
+||bender.cnetstatic.com./api/neutron/composer/cnet/pages/article/
+www.cnet.com##.u-grid-columns:is(.c-pageReviewContent_grid, .c-pageArticle_grid):style(grid-template-columns: 1fr !important;)

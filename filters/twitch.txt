@@ -1,0 +1,6 @@
+www.twitch.tv##.front-page-carousel
+www.twitch.tv##+js(json-prune-fetch-response, [].data.featuredStreams, , propsToMatch, https://gql.twitch.tv/gql)
+www.twitch.tv##+js(json-prune-fetch-response, [].data.shelves, , propsToMatch, https://gql.twitch.tv/gql)
+www.twitch.tv##[data-test-selector="side-nav"]
+www.twitch.tv###twilight-sticky-footer-root
+www.twitch.tv##.top-nav__prime

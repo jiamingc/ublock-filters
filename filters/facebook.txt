@@ -1,0 +1,15 @@
+! main feed
+www.facebook.com##:matches-path(/^/(\?|$)/) [role="main"]" 
+
+! video feed
+www.facebook.com##:matches-path(/^/watch/?(\?|$)/) [role="main"]" 
+
+! video tab
+www.facebook.com##[role="navigation"] li:has([aria-label="Video"])" 
+
+! extra marketplace search results
+www.facebook.com##:matches-path(/^/marketplace/[^/]+/search/?(\?|$)/) .x11t971q:has(.xudqn12:has-text(Results from outside your search))"
+
+! item page suggestions
+www.facebook.com##:matches-path(/^/marketplace/item/\d+/?(\?|$)/) .xptc4dh > .x16xn7b0"
+

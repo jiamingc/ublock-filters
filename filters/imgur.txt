@@ -1,0 +1,8 @@
+||api.imgur.com/post/v1/posts?$domain=imgur.com
+imgur.com##.BottomRecirc
+imgur.com##.CommentsList
+imgur.com##.Page404-contentWrapper
+imgur.com##.Gallery-Sidebar
+imgur.com##.CoverChangeGallery
+imgur.com##.UploadSpinner-contentWrapper
+imgur.com##.TrendingTags

@@ -1,0 +1,5 @@
+www.bbc.com###topStories-label-aside-content
+www.bbc.com###features-label-aside-content
+www.bbc.com###elsewhere-label-aside-content
+www.bbc.com###mostRead-label-aside-content
+www.bbc.com##div[data-component="links-block"]

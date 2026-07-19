@@ -1,0 +1,19 @@
+! Remove article sidebar
+www.pcgamer.com###widgetArea17
+www.pcgamer.com###widgetArea16:style(flex-basis: 100% !important;)
+
+! Newsletter nag modal
+www.pcgamer.com###slice-container-newsletterForm-exitIntent
+
+! Inline newsletter nag
+www.pcgamer.com##[id^="slice-container-newsletterForm-"]
+
+! Related Articles
+! Inline
+www.pcgamer.com##aside[data-component-name="Recirculation:ArticleRiver"]
+! Footer
+www.pcgamer.com##aside > div[data-recirc-id]
+
+! Quiz
+www.pcgamer.com##.kwizly-quiz
+

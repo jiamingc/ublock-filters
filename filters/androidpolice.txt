@@ -1,0 +1,5 @@
+www.androidpolice.com##aside#secondary
+www.androidpolice.com##footer.article-footer
+www.androidpolice.com##article.w-article:style(grid-template-columns: 1fr !important;)
+www.androidpolice.com##nav.subnav-navigation
+

@@ -1,0 +1,40 @@
+! Home page
+www.amazon.com###gw-layout
+www.amazon.com###desktop-banner
+
+! Rufus tooltip
+www.amazon.com###rufus-ask-rufus-tooltip
+
+! Navbar
+www.amazon.com###nav-xshop-container
+www.amazon.com###nav-join-prime
+www.amazon.com###nav-rufus-disco
+
+! Account tooltip
+www.amazon.com##.nav-flyout-sidePanel
+
+! Footer
+www.amazon.com###rhf
+||www.amazon.com/hz/rhf$xhr
+
+! Item page
+www.amazon.com###primeDPUpsellStaticContainerNPA
+www.amazon.com###sims-discoveryAndInspiration_feature_div_0
+
+! Cart
+www.amazon.com###sc-new-upsell
+www.amazon.com###sc-primeupsell-widget
+
+! "Buy it again" section in cart
+www.amazon.com###sc-secondary-list-tab
+www.amazon.com##[data-a-name="buyItAgain"]
+
+! Checkout prime interstitial
+www.amazon.com##+js(trusted-click-element, #prime-decline-button)
+
+! Checkout
+www.amazon.com###prime-spc-stripe-recommendations
+www.amazon.com##.isoa-wrapper-radio
+
+! Order history page
+www.amazon.com##.your-orders-content-container > .right-rail

@@ -1,0 +1,5 @@
+www.theguardian.com##gu-island[name="Carousel"]
+www.theguardian.com##gu-island[name="OnwardsUpper"]
+www.theguardian.com##div[data-gu-name="right-column"]
+www.theguardian.com##figure[data-spacefinder-role="richLink"]
+www.theguardian.com##section.dcr-17td87
