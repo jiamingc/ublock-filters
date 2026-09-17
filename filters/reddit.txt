@@ -13,13 +13,15 @@ www.reddit.com##trending-gallery-carousel
 www.reddit.com##shreddit-experience-tree:remove()
 www.reddit.com##embed-snippet-share-button:remove()
 www.reddit.com###reddit-trending-searches-partial-container
-
-# home feed
-www.reddit.com##shreddit-feed[reload-url^="/svc/shreddit/feeds/popular-feed"]
-
 www.reddit.com##shreddit-gallery-carousel
 www.reddit.com##.s\:hidden:has(+ shreddit-async-loader[bundlename="shreddit_sort_dropdown"]):style(display: unset !important;)
 www.reddit.com##main#main-content:style(max-width: 100% !important;)
 
-# Reddit mobile answers
+! home feed
+www.reddit.com##shreddit-feed[reload-url^="/svc/shreddit/feeds/popular-feed"]
+
+! mobile
+! ai answers
 www.reddit.com###answers-suggested-queries-mosaic
+! related posts
+www.reddit.com###t3_1wi6uif_related
