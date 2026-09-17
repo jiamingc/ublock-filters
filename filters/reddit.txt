@@ -22,4 +22,4 @@ www.reddit.com##shreddit-post[view-context=PopularFeed]
 ! ai answers
 www.reddit.com###answers-suggested-queries-mosaic
 ! related posts
-www.reddit.com###t3_1wi6uif_related
+www.reddit.com###mosaic-pdp-feed > [id$="_related"]
