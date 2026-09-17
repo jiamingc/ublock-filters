@@ -6,9 +6,6 @@ www.reddit.com##shreddit-interactable-element
 www.reddit.com##activate-feature
 www.reddit.com###get-app
 www.reddit.com###login-button
-www.reddit.com##shreddit-post[view-context=PopularFeed]
-www.reddit.com##shreddit-post[view-context=SubredditFeed]
-www.reddit.com##shreddit-post-loading
 www.reddit.com##trending-gallery-carousel
 www.reddit.com##shreddit-experience-tree:remove()
 www.reddit.com##embed-snippet-share-button:remove()
@@ -19,6 +16,7 @@ www.reddit.com##main#main-content:style(max-width: 100% !important;)
 
 ! home feed
 www.reddit.com##shreddit-feed[reload-url^="/svc/shreddit/feeds/popular-feed"]
+www.reddit.com##shreddit-post[view-context=PopularFeed]
 
 ! mobile
 ! ai answers
