@@ -3,7 +3,6 @@ www.reddit.com##.left-sidebar-min
 www.reddit.com##.left-sidebar
 www.reddit.com##.right-sidebar
 www.reddit.com##shreddit-interactable-element
-www.reddit.com##activate-feature
 www.reddit.com###get-app
 www.reddit.com###login-button
 www.reddit.com##trending-gallery-carousel
@@ -14,6 +13,9 @@ www.reddit.com##shreddit-gallery-carousel
 www.reddit.com##.s\:hidden:has(+ shreddit-async-loader[bundlename="shreddit_sort_dropdown"]):style(display: unset !important;)
 www.reddit.com##main#main-content:style(max-width: 100% !important;)
 
+! video recommendations overlay
+www.reddit.com##.recommendation-overlay
+
 ! home feed
 www.reddit.com##shreddit-feed[reload-url^="/svc/shreddit/feeds/popular-feed"]
 www.reddit.com##shreddit-post[view-context=PopularFeed]
@@ -23,3 +25,5 @@ www.reddit.com##shreddit-post[view-context=PopularFeed]
 www.reddit.com###answers-suggested-queries-mosaic
 ! related posts
 www.reddit.com###mosaic-pdp-feed > [id$="_related"]
+! top posts
+www.reddit.com###mosaic-pdp-feed > div:has(h2:has-text("Top Posts"))
