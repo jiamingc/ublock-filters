@@ -33,5 +33,5 @@ www.reddit.com###mosaic-pdp-feed > [id$="_related"]
 ! top posts
 www.reddit.com###mosaic-pdp-feed > div:has(h2:has-text("Top Posts"))
 ! forced app install interstitial
-www.reddit.com##configured-xpromo-modal
+www.reddit.com##configured-xpromo-modal:remove()
 
