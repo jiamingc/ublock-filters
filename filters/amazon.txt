@@ -1,6 +1,5 @@
 ! Home page
-www.amazon.com###gw-layout
-www.amazon.com###desktop-banner
+www.amazon.com###gwm-Deck
 
 ! Rufus tooltip
 www.amazon.com###rufus-ask-rufus-tooltip

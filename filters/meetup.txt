@@ -1,3 +1,15 @@
-||rkt.meetup.com
-www.meetup.com##img[alt="badgePlus illustration"]:upward(.flex-col)
+! Homepage
+! Suggested events
 www.meetup.com###suggested-events
+! Meetup Plus Ad
+www.meetup.com##div:has(> .bg-ds2-banner-base-fill-primary-enabled img[alt*="Meetup+"])
+
+! Event page
+! Meetup Plus Ad, event
+www.meetup.com##img[alt="badgePlus illustration"]:upward(.flex-col)
+! Ads on signup
+||rkt.meetup.com
+
+! Mobile
+! App prompt
+www.meetup.com##div.z-modal:has(> [data-testid="MobileAppPrompt"])
