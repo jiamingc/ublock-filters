@@ -3,6 +3,7 @@
 www.meetup.com###suggested-events
 ! Meetup Plus Ad
 www.meetup.com##div:has(> .bg-ds2-banner-base-fill-primary-enabled img[alt*="Meetup+"])
+www.meetup.com###try-memberPlus-links
 
 ! Event page
 ! Meetup Plus Ad, event
